@@ -2,6 +2,8 @@
 
 ## Installing Terraform
 
+##### On Windows
+
 First we install choco: <br>
 - Launch powershell with administrator rights:
 `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
@@ -9,6 +11,11 @@ First we install choco: <br>
 Next we install terraform: <br>
 `choco install terraform` <br>
 Next, we restart the powershell instance to refresh the environment variables. We can use Terraform now.
+
+##### On Linux (Arch)
+
+- Install terraform through Pamac (Gui package manager)
+- Or use `pacman -S terraform` to install terraform.
 
 ## Terraform Commands
 - `terraform init` to initialise Terraform

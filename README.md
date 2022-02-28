@@ -1,9 +1,4 @@
 # Intrastructure as code with Terraform
-## What is Terraform
-### Terraform Architecture
-#### Terraform default file/folder structure
-##### .gitignore
-###### AWS Keys with Terraform security
 
 ## Installing Terraform
 
